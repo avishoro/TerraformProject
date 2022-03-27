@@ -27,4 +27,5 @@ variable "password" {
 }
 
 Run terraform apply.
+
 You can create bastion in yout Az ure profile and install the weight-tracker use the scripts in the "configure_scripts" directory
