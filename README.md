@@ -12,12 +12,16 @@ You need to add the next code to variables.tf file (or create new file for that)
 
 variable "admin" {
   description = "The name of the administrator."
+  
   default = "*************"
+  
 }
 
 variable "password" {
+
   description = "The admin password to create resources."
   default = "*************"
+  
 }
 
 Run terraform apply.
