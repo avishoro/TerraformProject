@@ -11,6 +11,7 @@ Authenticate terraform to Azure via the instructions here: https://learn.hashico
 You need to add the next code to variables.tf file (or create new file for that):
 
 variable "admin" {
+
   description = "The name of the administrator."
   
   default = "*************"
@@ -20,6 +21,7 @@ variable "admin" {
 variable "password" {
 
   description = "The admin password to create resources."
+  
   default = "*************"
   
 }
