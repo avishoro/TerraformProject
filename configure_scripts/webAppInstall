@@ -33,7 +33,7 @@ OKTA_CLIENT_SECRET={yourClientSecret}
 PGHOST=**.*.*.*
 PGUSERNAME=postgres
 PGDATABASE=postgres
-PGPASSWORD=p@ssw0rd42
+PGPASSWORD={your password}
 PGPORT=5432
 EOF
 
